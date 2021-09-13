@@ -116,6 +116,7 @@ let step =() => {
     }
     html.innerHTML = string2;
     style.innerHTML = string.substring(0,i);
+    window.scrollTo(0, 99999);
     i++
     /*
     把i++放到第一段判断语句后面，
